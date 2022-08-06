@@ -1,0 +1,117 @@
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    border-left: 2px solid #b1191a;
+    left: 190px;
+    top: 40px;
+    padding-left: 13px;
+}
+.sk-container {
+    overflow: hidden;
+}
+.sk-list {
+    float: left;
+}
+.sk-list ul li {
+    float: left;
+}
+.sk-list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk-con {
+    float: left;
+}
+.sk-con ul li {
+    float: left;
+}
+.sk-con ul li a {
+    line-height: 49px;
+    padding: 0 24px;
+    font-size: 14px;
+}
+.sk-con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk-bd ul li {
+    float: left;
+    width: 288px;
+    height: 460px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    border: 1px solid transparent;
+}
+.sk-bd ul li img {
+    margin: 0 2px 1px;
+}
+.sk-bd ul li p,.mod-num {
+    margin: 0 12px;
+    font-size: 14px;
+}
+.mod-price {
+    margin: 8px 12px;
+}
+.pri-6088 {
+    font-weight: 700;
+    color: #e60012;
+}
+.pri-6088-1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #e60012;
+}
+.pri-6988 {
+    color: #a4a4a4;
+    text-decoration:line-through;
+    font-weight: 700;
+}
+.mod-num {
+    height: 13px;
+}
+.bar {
+    width: 105px;
+    height: 8px;
+    background: #e6e6e6;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px;
+    /* 为了兼容Chrome */
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #ed282e;
+}
+.bar-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 75%;
+    height: 100%;
+    background-color: #ed282e;
+}
+.qgou {
+    height: 50px;
+    background-color: #b1191a;
+    margin-top: 7px;
+}
+.qgou a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+.sk-bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk-bd ul li:hover {
+    border: 1px solid #e12228;
+}
